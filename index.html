@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Demo PWA</title>
+
+  <!-- de preferencia el manifest se ubica en la carpeta raíz del proyecto -->
+  <link rel="manifest" href="./manifest.json">
+  <!-- agregamos el color de tema -> lo tomará el manifest -->
+  <meta name="theme-color" content="#F7DF1E">
+  <!-- registro de iconos, cada dispositivo toma el ícono que más le convenga -->
+  <link rel="icon" sizes="16x16" type="image/png" href="./img/icon_16x16.png">
+  <link rel="icon" sizes="32x32" type="image/png" href="./img/icon_32x32.png">
+  <link rel="icon" sizes="64x64" type="image/png" href="./img/icon_64x64.png">
+  <link rel="icon" sizes="96x96" type="image/png" href="./img/icon_96x96.png">
+  <link rel="icon" sizes="128x128" type="image/png" href="./img/icon_128x128.png">
+  <link rel="icon" sizes="192x192" type="image/png" href="./img/icon_192x192.png">
+  <link rel="icon" sizes="256x256" type="image/png" href="./img/icon_256x256.png">
+  <link rel="icon" sizes="384x384" type="image/png" href="./img/icon_384x384.png">
+  <link rel="icon" sizes="512x512" type="image/png" href="./img/icon_512x512.png">
+  <link rel="icon" sizes="1024x1024" type="image/png" href="./img/icon_1024x1024.png">
+  <!-- metatags IOS | en dispositivo IOS -> cambie el color de barra de navegacion -->
+  <!-- Active características -> que se comporte como app -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- Tipo de tema para la barra de status (black - white - transparent) -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- Detección del teléfono -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- Título de la app -->
+  <meta name="apple-mobile-web-app-title" content="Demo PWA">
+  <!-- ícono  -->
+  <link rel="apple-touch-icon" sizes="192x192" href="./img/icon_192x192.png">
+
+  <!-- Metatags para dispositivos Windows -->
+  <!-- Color que predomina en la barra de navegador -->
+  <meta name="msapplication-TileColor" content="#F7DF1E">
+  <!-- íconno -->
+  <meta name="msapplication-TileImage" content="./img/icon_192x192.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Demo PWA">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./img/icon_128x128.png">
+  <meta property="og:site_name" content="Demo PWA">
+  <meta property="og:url" content="https://ely405.github.io/Demo-PWA">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Demo PWA</h1>
+  <script src="./index.js"></script>
+</body>
+</html>
